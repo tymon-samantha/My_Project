@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+   
+    <title>Hello World!</title>
+
+    <!-- Bootstrap core CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Custom styles for this template go here -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Amaranth|Aclonica|Inknut+Antiqua|Bad+Script|Calligraffitti|Bitter">
+    <meta property="og:url"           content="https://www.facebook.com/Artwrm/" />
+    <meta property="og:type"          content="profile" />
+    <meta property="og:title"         content="Artworm" />
+    <meta property="og:description"   content="Official Page for the artwork of Samantha Tymon" />
+    <meta property="og:image"         content="https://www.facebook.com/Artwrm/photos/a.152563901428672.30940.130483533636709/308005535884507/?type=3" />
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar">
+
+  <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+  <!-- navbar starts here -->
+  <!-- Collect the nav links, forms, and other content for toggling -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <nav class="container-fluid anchor">
+        <nav class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse"
+          data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <nav class="projectName navbar-brand">
+            <a class="projectname" href="#">Samantha Tymon</a>
+          </nav><!-- end projectName -->
+        </nav><!-- end navbar-header -->
+        <nav class="navbar-collapse collapse">
+          <ul class="nav nav-tabs navbar-nav navbar-right">
+            <li><a href="#faq-page">FAQ</a></li>
+            <li><a href="#contact-page">Contact</a></li>
+            <li><a href="#about-page">About</a></li>
+            <li role="presentation" class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+              Work <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-option" href="#work-one">Work 1</a></li>
+                <li><a class="dropdown-option" href="#work-two">Work 2</a></li>
+              </ul>
+            </li><!-- end work dropped down -->
+            <li><a href="#index-page">Home</a></li>
+          </ul>
+        </nav><!-- end nav -->
+      </nav><!-- end nav container -->
+    </nav> <!-- end of nav --> 
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <!-- Index Section -->
+    <div id="index-page" class="home">
+      <div class="container-fluid anchor">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+         <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="img/skye7.jpg" alt="...">
+              <div class="carousel-caption" id="name">
+                <h3 class="titles">Samantha Tymon</h3>
+                <p class="carousel-text">Serving all your web development needs </p>
+              </div><!-- end carousel caption -->
+            </div><!-- end item active -->
+            <div class="item">
+              <img src="img/eileandonan3.jpg" alt="...">
+              <div class="carousel-caption" id="travel">
+                <h3 class="titles">Will Travel</h3>
+                <p class="carousel-text">I appreciate unique views of the world, and I strive to incorporate that in all I do </p>
+              </div><!-- end carousel caption -->
+            </div><!-- end item -->
+            <div class="item">
+              <img src="img/lochness3.jpg" alt="...">
+              <div class="carousel-caption" id="attention">
+                <h3 class="titles">Attention to Details</h3>
+                <p class="carousel-text">I will go the extra mile, sometimes literally, to make sure your site matches your individualaity </p>
+              </div><!-- end carousel caption -->
+            </div><!-- end item -->
+            ...
+          </div><!-- end carousel inner -->
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div><!-- end carousel example generic -->
+      </div><!-- end container fluid -->
+      <div class="container" id="goals">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-4 col-xs-12">
+            <h2>Portfolio Concept</h2>
+            <p class="home-text">This portfolio page's purpose is to demonstrate the web development skills I have garnered over my brief course of study. I use photographs I have taken on my travels or in my daily life to display my visual style. <a href="https://www.instagram.com/travelling_sammykitty/" title="More Information About My Visual Style" id="item1">Instagram</a></p>
+            <p><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="All photographs on this page were taken by me">View details &raquo;</button></p>
+          </div><!-- /col -->
+          <div class="col-md-4 col-xs-12">
+            <h2>Goals</h2>
+            <p class="home-text">I want to work as a web developer. I am passionate about hard work and producing work of quality. I care about the customers I deal with, and I go out of my way to make sure they are happy. My goal is to bring my passion and dedication to your company, and I will go above and beyond to help your company achieve its goals.</p>
+            <p><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="I will continue to work and improve my skills">View details &raquo;</button></p>
+          </div><!-- /col -->
+          <div class="col-md-4 col-xs-12">
+            <h2>A Career Switch</h2>
+            <p class="home-text">I'm making a slight career shift. I currently work in tech, but not in an entirely hands on way. This is a switch from the path I had been on, though. I would like to work as an entry level developer looking to build the necessary experience to be able to take my skills anywhere in the world.</p>
+            <p><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Check back this time next year!">View details &raquo;</button></p>
+          </div><!-- /col -->
+        </div><!-- /row -->
+        <div class="row">
+          <div class="col-md-4 col-xs-12">
+            <div class="index-image">
+              <img src="img/arles1.jpg" class="img-responsive">
+            </div><!-- end index image -->
+          </div><!--end col Arles -->
+          <div class="col-md-4 col-xs-12">
+            <div class="index-image">
+              <img src="img/backyard2.jpg" class="img-responsive">
+            </div><!-- end index image -->
+          </div><!-- end col backyard -->
+          <div class="col-md-4 col-xs-12">
+            <div class="index-image">
+              <img src="img/neue.jpg" class="img-responsive">
+            </div><!-- end index image -->
+          </div><!-- end col Neue -->
+        </div><!-- /row -->
+        <hr>
+      </div> <!-- /container -->
+    </div><!-- end home -->
+
+    <!-- Work Section 1 -->
+    <div class="container anchor" id="work-one">
+      <h1 class="titles work-title">Work One</h1>
+      <div class="row" id="work">
+      </div><!-- end row -->
+      <p class="paragraph-text work-text">These are a projects I have built or am building. There are also some pictures I've taken.</p>
+
+      <!-- 16:9 aspect ratio -->
+      <div class="video">
+        <div class="embed-responsive embed-responsive-16by9 embed-responsive-4by3">
+          <iframe id="casablanca" class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/HM-E2H1ChJM?list=FLGfG-EKH8crveNAlLQAa9jA" allowfullscreen>
+          </iframe>
+        </div><!-- end responsive video -->
+      </div><!-- end Casablanca-->
+    </div><!-- end work -->
+
+     <!-- Work Section 2 -->
+    <div class="container anchor" id="work-two">
+      <h1 class="titles work-title">Work Two</h1>
+      <div class="row" id="work2">
+      </div><!-- end row -->
+      <p class="paragraph-text work-text">This second series of screenshots is currently the same as the first.</p>
+    </div><!-- end work 2 -->
+
+    <!-- About Section -->
+    <div id="about-page" class="container-fluid anchor" data-stellar-background-ratio="0.3">
+      <div class="trunk">
+        <div class="header">
+          <h1 class="titles section-header about-top">About Me</h1>
+        </div> <!-- end header1 -->
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="image column about-image">
+              <img src="img/myself4.jpg" class="img-responsive">
+            </div> <!-- end image -->
+          </div><!--end col -->
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="intro column">
+              <h2 class="about-titles">Introduction</h2>
+
+              <p class="about-paragraph">I am an artist, film buff, occasional world traveler, and full-time introvert. I am glad to add Web Developer to that list. I love getting absorbed in my work.</p>
+            </div> <!-- end intro -->
+          </div><!-- end col -->
+          <div id="skills" class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+            <div class="skill column skill-box">
+              <h3 class="about-titles">Computer Skills</h3>
+              <ul id="skill-list">
+                <li class="skill-type" id="pc">PC</li>
+                <li class="skill-type" id="mac">Mac</li>
+                <li class="skill-type" id="word">Word</li>
+                <li class="skill-type" id="excel">Excel</li>
+                <li class="skill-type" id="email">Email</li>
+                <li class="skill-type" id="photoshop">Photoshop</li>
+                <li class="skill-type" id="powerpoint">PowerPoint</li>
+                <li class="skill-type" id="basic">Basic HTML and CSS</li>
+              </ul>
+            </div> <!-- end skills -->
+          </div><!-- end col-->
+          <div id="skills" class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+            <div class="skill column skill-box">
+              <h3 class="about-titles">Other Skills</h3>
+              <ul id="skill-list">
+                <li class="skill-type" id="phone">Phone</li>
+                <li class="skill-type" id="drawing">Drawing</li>
+                <li class="skill-type" id="painting">Painting</li>
+                <li class="skill-type" id="sculpture">Sculpture</li>
+                <li class="skill-type" id="photography">Photography</li>
+                <li class="skill-type" id="wit">Unexpected wittisms</li>
+                <li class="skill-type" id="languages">Light French and Italian</li>
+              </ul>
+            </div> <!-- end skills -->
+          </div><!-- end col-->
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="main-text">
+              <h3 class="about-titles">More About Me</h3>
+              <p class="more-about about-paragraph">I could spend all day, every day watching and talking about movies...especially if champagne is involved. Small talk may kill me, but get me talking about classic films and I won't stop gabbing. I've always loved understanding how things work, and finding a way around or through an issue is exhilarating. I bring this passion for problem solving to my work. </p>
+            </div> <!-- end main text -->
+          </div><!-- end col -->
+        </div><!-- end row -->
+      </div> <!-- end trunk -->
+    </div><!-- end container -->
+
+    <!-- Contact Section -->
+    <div id="contact-page" class="container-fluid anchor" data-stellar-background-ratio="0.4">
+      <div class="row">
+        <div class="contact-me">
+          <div class="header">
+            <h1 class="titles section-header">Contact Me</h1>
+          </div><!-- end header -->
+          <div class="col-lg-7 col-md-7" id="Contact-Information">
+          <h1 class="titles contact-title">Contact</h1>
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="phone-number column contact-box">
+                <h2 class="contact-class"> <span class="glyphicon glyphicon-phone-alt"></span> Give Me a Call</h2>
+                <a class="contact-type" href="tel:973-769-4259">973-769-4259</a>
+              </div><!-- end phone number -->
+            </div><!-- end col -->
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="email column contact-box">
+                <h3 class="contact-class">Let's Talk With Electronic Mail <span class="glyphicon glyphicon-send"></span> </h3>
+                <a class="contact-type" href="mailto:tymon.samantha@gmail.com">tymon.samantha@gmail.com</a>
+              </div><!-- end email -->
+            </div><!-- end col -->
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="address column contact-box">
+                <h4 class="contact-class"> <span class="glyphicon glyphicon-pencil"></span> Let's Correspond</h4>
+                <p class="contact-type">237 Franklin Rd. Denville, NJ 07834</p>
+              </div><!-- end address -->
+            </div><!-- end col -->
+          </div><!-- end row -->
+          </div><!-- end Contact Information -->
+        </div><!-- end contact-me -->
+        <div class="col-lg-5 col-md-5" id="Contact-Form">
+          <h1 class="titles">Reach Out</h1>
+          <h2 class="received" id="invisible-header">We Have Received Your Message!</h2>
+          <form>
+            <div class="form-inline">
+              <div class="form-group">
+                <label class="sr-only" id="name" for="name">Name</label>
+                <input class="form-control name-box" type="textBox" id="name" placeholder="Your Name">
+                <p id="visible-contact"></p>
+              </div><!-- end name -->
+              <div class="form-group form-inline">
+                <label class="sr-only" id="phone-number" for="number">Your Digits</label>
+                <input class="form-control number-box" type="tel" minlength="9" required="optional" id="number" placeholder="Your Digits">
+                <p id="visible-number"></p>
+              </div><!-- end phone number -->
+            </div><!-- end inline -->
+            <div class="form-group">
+              <label id="box-name" for="email">Email*</label>
+              <input class="form-control email-box" type="email" id="email" placeholder="Your Email Address" required="required">
+              <p id="visible-email"></p>
+              <label id="box-name" for="message">What's On Your Mind?*</label>
+              <textarea class="form-control message-box" id="message-box" style="resize:none" cols="40" rows="5" placeholder="Your Message Here" required="required" minlength="20"></textarea>
+              <p id="visible-content"></p>
+              <p id="char-count"></p>
+              <button type="submit" id="button" class="btn btn-primary btn-md">Submit &raquo;</button>
+            </div><!-- end email -->
+          </form>
+        </div><!-- end Contact Form -->
+      </div><!-- end row -->
+      <div class="row">
+        <div class="col=md-4 col-sm-4">
+        </div><!-- end colunm-->
+        <div class="col=md-4 col-sm-4">
+          <div id="map">
+          </div><!-- end map -->
+            <!-- iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJVbxTEfUJw4kRb47VAH8CAQ0&key=AIzaSyDXpdQGuiOBY14QDqG__cXd_NzmmqTg29g" allowfullscreen --><!-- /iframe -->
+        </div><!-- end col -->
+        <div class="col=md-4 col-sm-4">
+        </div><!-- end column -->
+      </div><!-- end row -->
+    </div><!-- end containter -->
+
+    <!-- FAQ Section -->
+    <div id="faq-page" class="container-fluid anchor" data-stellar-background-ratio="0.4">
+      <div class="faq-top">
+        <h2 class="titles section-header">FAQ</h2>
+      </div><!-- end faq-top-->
+      <div class="row">
+        <h2 class="learn-more faq-titles">Learn More</h2>
+        <div class="modal-button">
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg" data-tooltip="true" data-placement="top" title="Check out my resume here">My Resume</button>
+        </div>
+        <!-- Small Modal -->
+        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" data-backdrop="static"  data-keyboard="false">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Samantha Tymon Resume</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              </div><!-- end modal header -->
+              <div class="modal-body">
+                <embed id="modalembed" src="doc/SamanthaTymonResume.pdf"></embed>
+              </div><!-- end modal body -->
+            </div><!-- end modal content -->
+          </div><!-- end modal dialog -->
+        </div><!-- end small modal -->
+      </div><!-- end Learn More div -->
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+          <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="glyphicon glyphicon-plus"></span>
+              </a>
+                Why did you decide to become a web developer?
+              </a>
+            </h4>
+          </div><!-- end panel heading 1-->
+          <div id="collapseOne" class="panel-collapse collapse in">
+            <div class="panel-body">
+              I have always enjoyed knowing how things work and solving problems. I had been working for a tech company, and often I would work closely with the development team. They renewed my interest in something I had dabbled in in the early days of AOL. I like the challenge of manipulating a webpage to fit the purposes of my clients.
+            </div><!-- end panel body 1 -->
+          </div><!-- end collapseOne -->
+        </div><!-- end panel default 1 -->
+        <div class="panel panel-default">
+          <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="glyphicon glyphicon-plus"></span>
+              </a>
+                How did you develop your development skills?
+              </a>
+            </h4>
+          </div><!-- end panel heading 2 -->
+          <div id="collapseTwo" class="panel-collapse collapse">
+            <div class="panel-body">
+              I have studied with Career Foundry.
+            </div><!-- end panel body 2 -->
+          </div><!-- end collapseTwo -->
+        </div><!-- end panel default 2 -->
+        <div class="panel panel-default">
+          <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span class="glyphicon glyphicon-plus"></span>
+              </a>
+                What is your design process?
+              </a>
+            </h4>
+          </div><!-- panel heading 3 -->
+          <div id="collapseThree" class="panel-collapse collapse">
+            <div class="panel-body">
+              I like to start with a color palette and go from there. Color sets the tone, and tone will dictate the form of all the elements.
+            </div><!-- end panel body 3 -->
+          </div><!-- end collapseThree-->
+          </div><!-- end panel default 3 -->
+        <div class="panel panel-default">
+          <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour"><span class="glyphicon glyphicon-plus"></span>
+              </a>
+                What is your average project turn-around time?
+              </a>
+            </h4>
+          </div><!-- end panel heading 4 -->
+          <div id="collapseFour" class="panel-collapse collapse">
+            <div class="panel-body">
+              Each individual project is unique and requires a different amount of time and attention. It would be inaccurate to compare the time each took.
+            </div><!-- end panel body 4 -->
+          </div><!-- end collapseFour-->
+        </div><!-- end panel default 4 -->
+        <div class="panel panel-default">
+          <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive"><span class="glyphicon glyphicon-plus"></span>
+              </a>
+                Who are your clients?
+              </a>
+            </h4>
+          </div><!-- end panel heading 5 -->
+          <div id="collapseFive" class="panel-collapse collapse">
+            <div class="panel-body">
+              I have done some work for a few businesses in the automotive industry.
+            </div><!-- end panel body 5 -->
+          </div><!-- end collapseFive-->
+        </div><!-- end panel default 5 -->
+      </div><!-- end panel group -->
+    </div><!-- end container -->
+
+    <!-- Footer Section -->
+    <footer>
+      &copy; Samantha Tymon 2016
+      <!-- Social Media -->
+      <div class="container-fluid anchor" id="social-media">
+        <div class="row">
+          <div class="col-md-4 col-xs-12">
+            <p class="paragraph-text">Follow Me On Social Media</p>
+          </div><!-- end column follow -->
+          <div class="col-md-4 col-xs-12">
+            <div class="twitter">
+              <a class="twitter-follow-button" href="https://twitter.com/TravellingSammy" class="twitter-follow-button" data-show-count="false">Follow @TravellingSammy</a>
+            </div><!-- Twitter -->
+          </div><!-- end column Twitter -->
+          <div class="col-md-4 col-xs-12">
+            <div class="fb-like" 
+              data-href="https://www.facebook.com/Artwrm/" 
+              data-width="200" button="standard" 
+              data-action="like"
+              data-show-faces="false">
+            </div><!-- end fb-like -->
+          </div><!-- end column Facebook -->
+        </div><!-- end row Social Media -->
+      </div><!-- end container Social Media -->
+    </footer><!-- end footer -->
+
+      <!-- ============================= -->
+      <!-- All your JavaScript comes now -->
+      <!-- ============================= -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <!-- Bootstrap core JS -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+     
+       <!-- Can place script tags with JavaScript files here -->
+      <script src="js/jquery.stellar.min.js"></script>
+      <script src="js/work.js"></script>
+      <script src="js/scripts.js"></script>
+
+      <script async defer 
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eUWtbCf0GTAb2g5dpwvrhv6F541vV8U&callback=initMap">
+      </script>
+  </body>
+</html>

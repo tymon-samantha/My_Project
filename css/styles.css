@@ -1,0 +1,638 @@
+body {
+  position: relative;
+}
+
+/*Navigation Buttons*/
+/* Large desktop */
+@media (min-width: 1200px) {
+  .navbar-inverse .navbar-nav {
+    display: inline-block;
+    padding: 20px 10px 0px;
+}}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  .navbar-inverse .navbar-nav {
+    display: inline-block;
+    padding: 20px 10px 0px;
+}}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  .navbar-inverse .navbar-nav {
+    padding: 20px 10px 0px;
+    display: block;
+}}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .navbar-inverse .navbar-nav {
+    padding: 20px 10px 0px;
+    display: block;
+}}
+/* Make Hidden Menu Show as a List */
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  .nav-tabs>li {
+    width: 100%;
+}}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .nav-tabs>li {
+    width: 100%;
+}}
+
+/*Navigation Bar*/
+/* Large desktop */
+@media (min-width: 1200px) {
+  .navbar-inverse {
+    z-index: 1;
+    background-color: #336699;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    opacity: 0.7;
+}}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  .navbar-inverse {
+    z-index: 1;
+    background-color: #336699;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    opacity: 0.7;
+}}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  .navbar-inverse {
+    z-index: 1;
+    background-color: #336699;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .navbar-inverse {
+    z-index: 1;
+    background-color: #336699;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}}
+.nav-tabs {
+  border-bottom: 0px;
+}
+.nav-tabs>li>a {
+  margin-right: 10px;
+}
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover {
+  background-color: #04182B;
+}
+ul.dropdown-menu {
+  background-color: #5E91C3;
+  opacity: 1;
+}
+nav.navbar.navbar-inverse.navbar-fixed-top {
+  z-index: 2;
+}
+/**** All sections ****/
+
+/* Creates a dark grey 2px border */
+.about-image, 
+.index-image, 
+.intro, 
+.more-about, 
+.skill-box {
+  border: 2px solid #203550;
+}
+
+/**** Index Page ****/
+/* Large desktop */
+@media (min-width: 1200px) {
+  .carousel {
+    margin-right: -15px;
+    margin-left: -15px;
+}}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  .carousel {
+    margin-right: -15px;
+    margin-left: -15px;
+}}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  .carousel {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 51px;
+}}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .carousel {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 51px;
+}}
+
+.carousel-caption {
+  background-color: #FFEDE3;
+  opacity: 0.8;
+  border-style: groove;
+  border-color: white;
+  border-radius: 100px;
+}
+ol.carousel-indicators {
+  z-index: 1;
+}
+#index-page .img {
+  margin-bottom: 30px;
+}
+#work-one .container,
+#work-two .container {
+  margin-left: 0px;
+}
+
+/**** Work Page ****/
+#work-one,
+#work-two {
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+#work-one .row,
+#work-two .row {
+  padding-bottom: 30px;
+}
+#work-one h1,
+#work-two h1 {
+  padding-bottom: 50px;
+}
+#work-one p,
+#work-two p {
+  background-color: black;
+}
+#workcol {
+  margin-bottom: 10px;
+}
+.video {
+  display: block;
+  margin: 0 auto;
+  padding-top: 5%;
+  width: 50%;
+}
+.info {
+  position: absolute;
+  top: 15%;
+  left: 22%;
+  display: none;
+}
+.infoA {
+  margin-bottom: 20px;
+  top: 0%;
+}
+.infoB {
+  margin-top: 80px;
+  margin-left: 140px;
+  left: 0%; 
+}
+.infoC {
+  margin-top: 75px;
+  margin-left: -20px;
+}
+.infoF {
+  margin-top: 65px;
+  margin-left: -20px;
+}
+.infoH {
+  margin-top: 71px;
+  margin-left: 74px;
+}
+
+/**** About Page ****/
+* { box-sizing: border-box; }
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+#about-page .header h1 {
+  padding-bottom: 40px;
+  border-bottom: 3px solid #173543;
+}
+#about-page .row {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.image>img {
+  width: 100%;
+}
+.skill {
+  background-color: #4c5f77;
+  opacity: 0.7;
+  margin-right: -18px;
+  margin-left: -10px;
+}
+.main-text {
+  clear: both;
+  padding-top: 60px;
+  position: static;
+}
+.main-text p {
+  background-color: #7390b5;
+  opacity: 0.8;
+  color: #000000;
+  padding: 10px 25px;
+  margin-left: -50px;
+  margin-right: -50px;
+  border: 2px solid #203550;
+}
+#about-page {
+  padding-top: 74px;
+  padding-bottom: 200px;
+  background-color: #203550;
+  background-image: url("../img/fairypools4.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #7390b5;
+  background-blend-mode: hard-light;
+  border-top: 3px solid #173543;
+}
+.intro {
+  background-color: white;
+  opacity: 0.81;
+  padding: 0 40px 4px 40px;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.skill li {
+  padding-right: 30px
+}
+.skill #languages {
+  padding-right: 14px
+}
+
+/**** Contact Page ****/
+#contact-page {
+  padding-bottom: 200px;
+  background-color: #336699;
+  background-image: url("../img/highlands4.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  border-top: 3px solid #EC9442;
+}
+.contact-me .header h1 {
+  padding-bottom: 40px;
+  width: 100%;
+  left: 500px;
+  border-bottom: 3px solid #EC9442;
+}
+/* Large Desktop */
+@media (min-width: 1200px) {
+  #contact-page .column {
+    border-style: dotted;
+    border-color: white;
+    border-radius: 50px;
+    margin: 2% 25%;
+}}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  #contact-page .column {
+    border-style: dotted;
+    border-color: white;
+    border-radius: 50px;
+    margin: 2% 25%;
+}}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  #contact-page .column {
+    border-style: dotted;
+    border-color: white;
+    border-radius: 50px;
+    margin: 2% 2%;
+}}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  #contact-page .column {
+    border-style: dotted;
+    border-color: white;
+    border-radius: 50px;
+    margin: 2% 2%;
+}}
+.phone-number {
+  background-color: #7BA3CA;
+}
+.email {
+  background-color: #4E7DAB;
+}
+.address {
+  background-color: #0E3E6C;
+}
+form {
+  margin-left: 4%;
+  width: 80%;
+}
+.form-control {
+  width: 80%;
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  form {
+    padding-left: 22%;
+}}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  form {
+    padding-left: 22%;
+}}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  #Contact-Form h1 {
+    padding-left: 20%;
+}}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  #Contact-Form h1 {
+    padding-left: 20%;
+}}
+button.btn.btn-primary.btn-md {
+  margin-top: 10px;
+}
+#map {
+  height: 400px;
+  width: 100%;
+  border: 2px solid dodgerblue;
+}
+
+/**** FAQ Page ****/
+#faq-page {
+  background-image: url("../img/fairypoolscrest2.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  border-top: 3px solid #173543;
+}
+.panel-default .panel-heading {
+  background-color: #173543;
+  cursor: pointer;
+}
+.faq-top h2 {
+  padding-bottom: 40px;
+  border-bottom: 3px solid #173543;
+}
+#accordion {
+  padding-top: 30px;
+}
+
+/*Modal Window */
+.modal-button {
+  float: right;
+  padding: 15px;
+}
+.learn-more {
+  margin-left: 15px;
+}
+#modalembed {
+  height: 500px;
+  width: 100%;
+  padding: 15px;
+}
+button .btn .btn-primary {
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+/**** Footer ****/
+footer {
+  padding-left: 5px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+
+/*Typography*/
+
+/**** All Sections Typography ****/
+
+/* Sans-Serif Font Alconica */
+.projectname,
+.titles, 
+.received, 
+#visible-content, 
+#visible-contact {
+  font-family: Aclonica; Futura, Helvetica, Arial, sans-serif;
+}
+/* Sans-Serif Font Amaranth */
+.about-titles, 
+.contact-type, 
+.faq-titles, 
+.panel-title, 
+.info {
+  font-family: Amaranth; Futura, Helvetica, Arial, sans-serif;
+}
+/* Serif Font Bitter */
+.contact-class, 
+.dropdown-option, 
+.home-text, 
+.panel-body, 
+.skill-type {
+  font-family: Bitter, Georgia; Baskerville, serif;
+}
+/* Serif Font Inknut Antiqua */
+.carousel-text {
+  font-family: Inknut Antiqua, Georgia; Baskerville, serif;
+}
+/* Sans-Serif Font Bad Script */
+.about-paragraph, 
+.paragraph-text {
+  font-family: Bad Script, Futura, Helvetica, Arial, sans-serif;
+}
+/* Text Align Center */
+.about-titles, 
+.contact-box, 
+.contact-title, 
+.paragraph-text, 
+.work-title, 
+.section-header, 
+.skill-type {
+  text-align: center;
+}
+/* Large Section Head Font Size */
+.section-header {
+  font-size: 4em;
+}
+/* Dark Grey-Blue Color Font */
+.about-paragraph 
+.about-top, 
+.faq-top, 
+.info {
+  color: #173543;
+}
+/* White Font Color */
+.contact-class, 
+.contact-type, 
+.panel-title, 
+.projectname, 
+.work-text {
+  color: white;
+}
+
+/*Navigation*/
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  font-family: Aclonica; Futura, Helvetica, Arial, sans-serif;
+  -webkit-transition: color 60ms, font-style 60ms;
+  transition: color 60ms, font-style 60ms;
+}
+/*Hover over navbar and select when on section*/
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover {
+  color: #FFB169;
+  text-decoration: overline;
+  font-style: italic;
+}
+.navbar-inverse 
+.navbar-nav>li>a {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+}
+.projectName {
+  text-transform: uppercase;
+}
+.dropdown-menu>li>a {
+  color: #FFB169;
+}
+
+/**** Index Page Typography ****/
+.carousel-caption {
+  font-weight: 300;
+  color: #D04900;
+}
+
+/** Carousel Caption Header **/
+/* Large desktop */
+@media (min-width: 1200px) {
+  .carousel-caption h3 {
+    font-size: 2em;
+}}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  .carousel-caption h3 {
+    font-size: 2em;
+}}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  .carousel-caption h3 {
+    font-size: 1.2em;
+}}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .carousel-caption h3 {
+    font-size: 1.2em;
+}}
+
+/** Carousel Caption Paragraph**/
+/* Large desktop */
+@media (min-width: 1200px) {
+  .carousel-caption p {
+    font-size: 1.25em;
+}}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  .carousel-caption p {
+    font-size: 1.25em;
+}}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  .carousel-caption p {
+    font-size: 0.68em;
+}}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .carousel-caption p {
+    font-size: 0.68em;
+}}
+#goals p {
+  text-align: left;
+}
+
+/**** Work Page Typography ****/
+.info {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.5em;
+  line-height: 1.6;
+}
+.proj-title {
+  font-weight: 100;
+}
+
+/**** About Page Typography ****/
+p,
+.skill li {
+  font-size: 1.25em;
+}
+.intro p {
+  font-size: 2.3em;
+}
+.main-text h3 {
+  font-size: 2em;
+  font-weight: 100;
+}
+.main-text p {
+  font-size: 2em;
+  font-weight: 100;
+  -webkit-margin-before: 0;
+  text-align: justify;
+}
+#about-page {
+  color: #34495e;
+}
+.skill {
+  color: #fff;
+}
+.skill ul {
+  list-style-position: inside;
+}
+
+/**** Contact Page Typography ****/
+.contact-me h1 {
+  color: #EC9442;
+}
+.contact-me h2, 
+.contact-me h3, 
+.contact-me h4 {
+  font-size: 1.45em;
+}
+.contact-me a, 
+.contact-me p {
+  font-size: 1.35em;
+}
+#Contact-Information h1, 
+#Contact-Form h1 {
+  font-size: 2.65em;
+  color: #2D507E;
+}
+.phone-number {
+  font-size: 1.25em;
+}
+.email a, 
+.phone-number a {
+  text-decoration: underline;
+  font-size: 1.25em;
+}
+
+/**** FAQ Page Typography ****/
+.panel-body {
+  font-size: 1.8em;
+}
+.learn-more {
+  float: left;
+  font-size: 2.8em;
+}
